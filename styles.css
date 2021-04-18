@@ -97,6 +97,7 @@
   /*padding-top: 100px;*/
   padding: 0 63% 100px 0;
   background: right top no-repeat url('img/mainimg.svg');
+  background-size: contain;
 }
 
 .main__title {
