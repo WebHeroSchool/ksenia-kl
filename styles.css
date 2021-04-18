@@ -10,6 +10,7 @@
  .header {
    display: flex;
    justify-content: space-between;
+   margin-bottom: 100px;
  }
 
  .logo {
@@ -88,6 +89,41 @@
   margin-right: 0;
 }
 
- .main-section {
+ /*.main-section {
    border: dashed 1px red;
+}*/
+
+.main {
+  /*padding-top: 100px;*/
+  padding: 0 63% 100px 0;
+  background: right top no-repeat url('img/mainimg.svg');
+}
+
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+}
+
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+
+.main__subtitle {
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #fff;
+  background: #0056EC;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
