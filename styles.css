@@ -102,7 +102,7 @@
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -111,12 +111,14 @@
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 22px/26px Roboto, arial, helvetica, sans-serif;
+  color: #000;
 }
 
 .main__button {
+  position: absolute;
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   padding: 14px 16px;
@@ -127,4 +129,39 @@
 
 .main__button:hover {
   opacity: .5;
+}
+
+/*@media (min-width:768px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle{
+    position: absolute;
+    margin-bottom: 25px;
+    font: 613 22px/26px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+  }
+
+  .main__button {
+    position: absolute;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #FFF;
+  }
 }
